@@ -1,14 +1,21 @@
 # Artificial Neural Networks
 
-This is a clean sample project for using Pytorch or Pytorch Lightning to train a simple ANN model on MNIST dataset.
+This is a sample project for using Pytorch or Pytorch Lightning as clean single-file-implementations to train a basic 
+ANN model on MNIST dataset. 
+
+To run the models, simply select one of the files (pytorch.py, lightning.py) and execute it.
+
+```bash
+python pytorch.py
+python lightning.py
+```
 
 ### Organisation of Files
----
 
 ```txt
 📦ANN
  ┣ 📂data
- ┃ ┣ 📂MNIST    -> Will be downloaded by code
+ ┃ ┣ 📂MNIST    -> Will be downloaded by the code
  ┃ ┗ 📂samples  -> Sample images for custom prediction
  ┃ ┃ ┣ 📜2.png
  ┃ ┃ ┗ 📜5.png
@@ -18,9 +25,4 @@ This is a clean sample project for using Pytorch or Pytorch Lightning to train a
  ┣ 📜lightning.py   -> Pytorch Lightning implementation
  ┗ 📜pytorch.py     -> Pytorch implementation
 ```
-
 ---
-
-
-
-

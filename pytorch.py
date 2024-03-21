@@ -48,7 +48,7 @@ class Network(nn.Module):
         return x
 
 # ---------------------------------------------------------*/
-# Train und Test model 🏋🏽‍♂️
+# Train und Test model
 # ---------------------------------------------------------*/
 
 
@@ -106,7 +106,7 @@ def main():
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters())
 
-    # Train the model 🏋🏽‍♂️
+    # Train the model
     train_model(train_loader, model, criterion, optimizer)
     test_model(test_loader, model)
 

@@ -98,10 +98,10 @@ def main():
     model = NetWork()
     trainer = pl.Trainer(max_epochs=5, logger=False, enable_checkpointing=False)
 
-    # Train the model 🏋🏽‍♂️
+    # Train the model
     trainer.fit(model, data)
 
-    # Test the model 🏅
+    # Test the model
     trainer.test(model, data)
 
     # Predict a digit
